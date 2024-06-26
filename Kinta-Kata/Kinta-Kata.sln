@@ -5,6 +5,12 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinta-Kata", "Kinta-Kata.csproj", "{A757ED29-19F6-4A22-A29B-56187ABBE564}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KintaKata.Infrastructure", "..\KintaKata.Infrastructure\KintaKata.Infrastructure.csproj", "{2967C0E6-0558-4C67-9428-9C298A4D7144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KintaKata.Core", "..\KintaKata.Core\KintaKata.Core.csproj", "{0A04DB99-0D00-4A73-BBB8-26B0E9AFB498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KintaKata.Tests", "..\KintaKata.Test\KintaKata.Tests.csproj", "{F258A680-229C-442A-BEF7-AF7F6C636A24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{A757ED29-19F6-4A22-A29B-56187ABBE564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A757ED29-19F6-4A22-A29B-56187ABBE564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A757ED29-19F6-4A22-A29B-56187ABBE564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2967C0E6-0558-4C67-9428-9C298A4D7144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2967C0E6-0558-4C67-9428-9C298A4D7144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2967C0E6-0558-4C67-9428-9C298A4D7144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2967C0E6-0558-4C67-9428-9C298A4D7144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A04DB99-0D00-4A73-BBB8-26B0E9AFB498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A04DB99-0D00-4A73-BBB8-26B0E9AFB498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A04DB99-0D00-4A73-BBB8-26B0E9AFB498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A04DB99-0D00-4A73-BBB8-26B0E9AFB498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F258A680-229C-442A-BEF7-AF7F6C636A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F258A680-229C-442A-BEF7-AF7F6C636A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F258A680-229C-442A-BEF7-AF7F6C636A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F258A680-229C-442A-BEF7-AF7F6C636A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
